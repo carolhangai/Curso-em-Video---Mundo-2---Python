@@ -10,6 +10,7 @@ prest = vlcasa /(anos * 12)
 prestmax = sal * 30 / 100
 print('Para pagar uma casa no valor de R${:.2f} reais em {} anos'.format(vlcasa,anos))
 print('A prestação mensal será no valor de R${:.2f} reais'.format(prest))
+
 if prest <= prestmax:
     print('Emprestimo concedido!')
 else:
