@@ -13,5 +13,6 @@ print('A prestação mensal será no valor de R${:.2f} reais'.format(prest))
 
 if prest <= prestmax:
     print('Emprestimo concedido!')
+    
 else:
     print('Emprestimo negado!Valor acima de 30% do salario.') 
