@@ -7,6 +7,7 @@ print('Digite [1] para converter o numero em BINARIO.')
 print('Digite [2] para converter o numero em HEXADECIMAL.')
 print('Digite [3] para converter o numero em OCTAL.')
 opção = int(input('Digite a opção desejada:'))
+
 if opção == 1:
     print('O numero {} convertido em BINARIO é igual {}'.format(num, bin(num)[2:]))
 elif opção == 2:
@@ -16,4 +17,3 @@ elif opção == 3:
 else:
     print('Opção invalida... Tente novamente!')
 
-    
