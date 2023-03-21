@@ -19,9 +19,9 @@ while (continuar_jogo=="sim"):
         print('Opção INVÁLIDA! TENTE NOVAMENTE.')
         exit()
 
-    print('JO.....')
+    print('JO......')
     sleep(0.5)
-    print('KEN......')
+    print('KEN.......')
     sleep(0.5)
     print('PÔÔÔ!!!')
     print('-='*13)
