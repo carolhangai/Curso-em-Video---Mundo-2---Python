@@ -10,10 +10,10 @@ print('A primeira nota do aluno foi: {}, a segunda nota foi: {}'.format(n1,n2))
 media = float(n1 + n2)/2
 if media >= 7:
     print('Sua nota média é:', media)
-    print('Aluno APROVADO!')
+    print('Aluno APROVADO! Parabéns!!!')
 elif media >= 5 and media < 7:
     print('Sua nota média é:', media)
     print('O aluno esta em RECUPERAÇAO!')
 else:
     print('Sua média é:', media)
-    print('Voce esta REPROVADO!') 
+    print('Aluno esta REPROVADO!') 

@@ -13,10 +13,10 @@ print('-='*40)
 compras = float(input('Qual valor das compras? R$'))
 print('O valor total de suas compras é de R${} reais.'.format(compras))
 print('''FORMAS DE PAGAMENTO
-[1] à vista dinheiro/cheque
-[2] à vista cartão
+[1] à vista dinheiro/cheque. Desconto de 10%.
+[2] à vista cartão. Desconto de 5%.
 [3] 2x cartão
-[4] 3x ou mais''')
+[4] 3x ou mais. Juros de 20%''')
 opcao = int(input('Selecione forma de pagamento:'))
 print('Forma de pagamento {}'.format(opcao))
 
